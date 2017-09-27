@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: black 1px solid;
+    padding: 10px;
+}
+table tr:nth-child(even){
+    background-color: lightgrey;
+
+}
+table tr:nth-child(odd){
+    background-color: white;
+
+}
